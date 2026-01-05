@@ -1,22 +1,17 @@
 # qhd-simulations
 
-Reproducible Python code for numerical experiments related to Quantum Hamiltonian Descent (QHD),
-developed in the context of an MSc thesis project.
+Numerical experiments and simulations related to **Quantum Hamiltonian Descent (QHD)** and quantum-inspired time evolution, implemented in **Python** (with PennyLane where relevant).
 
-## Repository layout
-- `src/MAIN.py`: main entry point (runs simulations / experiments)
-- `src/QHD_quantum.py`: core routines (QHD-related implementation)
-- `src/`: additional modules used by the main script
+## What’s inside
+- Core simulation code in `src/`
+- Scripts/experiments used to generate key numerical results for the project
 
 ## Requirements
 - Python 3.10+ recommended
-- See `requirements.txt` (to be added)
+- Typical dependencies: numpy, scipy, matplotlib (and pennylane if used in the experiments)
 
-## Quickstart (local)
-Create and activate a virtual environment, then run the main script:
+## Quick start
+Clone the repository and run the main entry scripts in `src/` (see inline comments / headers).
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python src/MAIN.py
+## Notes
+This repository is intended as a research codebase; scripts may reflect ongoing thesis work and are documented progressively.
